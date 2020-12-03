@@ -7,11 +7,10 @@ I choose the “İstanbul Arkeoloji” Museum’s photograph as colored image.
 
 
 Problem-1
-a)	The first task is the cropping image. My code takes the image and crops its sides equally. In the end, the output image’s dimensions (height and width) decreasing to half of the original image. You can find output image in /output/half_Museum.png  
-  
-    
+a)	The first task is the cropping image. My code takes the image and crops its sides equally. In the end, the output image’s dimensions (height and width) decreasing to half of the original image. You can find output image in /output/half_Museum.png  <br/><br/>
     
 ![Half Museum](/output/half_Museum.png)
+<br/><br/>
 
 
 b)	The second task is changing the channels of the image. My code takes the image and extracts its “R” and “B” channels. After that, it assigns the “R” channel to the “B” channel position and does the same thing for the “B” channel. This process can be done by “cv2.cvtColor(image, cv2.COLOR_BGR2RGB)”. You can find the output image in /output/channel_changed_Museum.png
