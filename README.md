@@ -38,7 +38,7 @@ In this order, gradients decreasing. For example, in the gradient orientation ma
 
 **e)**<br/>
 The fifth task is finding and displaying Laplacian of Gaussian images with different sigma values. I used a predefined function for “LoG” from the “ndimage” library. When I increase the sigma values the details and noise in the result image decrease. You can find the figure on /output/ LoG’s.png<br/><br/>
-![LoG’s](/output/LoG’s.png)
+![LoGs](/output/LoG’s.png)
 <br/><br/>
 
 
