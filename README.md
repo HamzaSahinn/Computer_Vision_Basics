@@ -23,19 +23,22 @@ The second task is changing the channels of the image. My code takes the image a
 **c)** <br\>
 The third task is changing the color space of the image (BGR to GRAY). I used a predefined function from the OpenCV-python library. It directly converts a colored image to grayscale image. “cv2.cvtColor(image, cv2.COLOR_BGR2RGB)”. You can find the output image in /output/ grayscale_Museum.png <br\><br\>
 
-![grayscale_Museum](/output/ grayscale_Museum.png)
+![grayscale_Museum](/output/grayscale_Museum.png)
 <br\><br\>
 
 **d)**<br\>	
 The fourth task is creating a gradient magnitude and gradient orientation map of the image. Firstly, the program reads the image and converts it to grayscale after that it applies Gaussian blur. Second, it crates x and y “Sobel” kernels then filters the image with these two kernels. After that, it calculates the gradient magnitude map of the image. For the gradient orientation map, I choose the coloring technique. There is an order of colors which is; <br\>
 yellow>pink>green>blue>cyan>red <br\>
 In this order, gradients decreasing. For example, in the gradient orientation map, a yellow region gradient changes bigger than a pink region. In the end, I got this image.
-<br\>	<br\>	
+<br\><br\>	
+
 ![gradient_magnitude](/output/gradient_magnitude.png)
-<br\>	<br\>
+
+<br\><br\>
+
 ![Gradient_orientation](/output/Gradient_orientation.png)
 
-<br\>	<br\>
+<br\><br\>
 
 
 **e)**	<br\>
