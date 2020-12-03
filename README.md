@@ -7,7 +7,10 @@ I choose the “İstanbul Arkeoloji” Museum’s photograph as colored image.
 
 
 Problem-1
-a)	The first task is the cropping image. My code takes the image and crops its sides equally. In the end, the output image’s dimensions (height and width) decreasing to half of the original image. You can find output image in /output/half_Museum.png	
+a)	The first task is the cropping image. My code takes the image and crops its sides equally. In the end, the output image’s dimensions (height and width) decreasing to half of the original image. You can find output image in /output/half_Museum.png  
+  
+    
+    
 ![Half Museum](/output/half_Museum.png)
 
 
